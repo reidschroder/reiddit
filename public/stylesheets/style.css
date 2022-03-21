@@ -6,34 +6,35 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Courier;
     color: #333;
+    background-color: rgb(83, 83, 83);
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #e69549;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #f7a867;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #e69549;
     border: 0;
     padding: 1%;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #f7a867;
   }
   
   .post-list {
@@ -49,7 +50,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #f7a867;
   }
   
   textarea {
@@ -97,7 +98,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #e69549;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,7 +107,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: #f7a867;
   }
   
   .delete-post-btn {
@@ -120,12 +121,13 @@
   .post {
     margin-bottom: 2%;
     line-height: 150%;
+    color: rgb(173, 171, 171);
   }
   
   .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: #949292;
   }
   
   .edit-link {
@@ -175,4 +177,5 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    color: #949292;
   }
